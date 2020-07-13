@@ -7,13 +7,14 @@
 <details>
   <summary>Android</summary>
  
-  ![Android](https://github.com/NewUserKK/translation-aggregator-react-native/blob/master/repo/screenshot-android.png)
+  <img src="https://github.com/NewUserKK/translation-aggregator-react-native/blob/master/repo/screenshot-android.png" width=300>
   
 </details>
+
 <details>
   <summary>iOS</summary>
  
-  ![iOS](https://github.com/NewUserKK/translation-aggregator-react-native/blob/master/repo/screenshot-ios.png)
+  <img src="https://github.com/NewUserKK/translation-aggregator-react-native/blob/master/repo/screenshot-ios.png" width=300>
   
 </details>
 
