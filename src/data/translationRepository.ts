@@ -1,5 +1,5 @@
 
-import Config from "react-native-config"
+import Config from "react-native-config";
 
 import UrbanTranslationModel from "src/domain/translation/UrbanTranslationModel";
 import { Either, leftOf, rightOf } from "src/domain/common/Either";

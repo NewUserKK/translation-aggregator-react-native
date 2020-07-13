@@ -24,6 +24,8 @@
 		DECA7B5AD7478058728BA801 /* libPods-TranslationAggregator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CC51B61D5AF326F7D5E92E5 /* libPods-TranslationAggregator.a */; };
 		E200BF3CC8124BE7878D2298 /* Noto Sans JP Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 334673424ABE4B488A4CF01A /* Noto Sans JP Regular.otf */; };
 		F6014282075230E39813B902 /* libPods-TranslationAggregator-TranslationAggregatorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7780C0EEACA4F3BBF45447 /* libPods-TranslationAggregator-TranslationAggregatorTests.a */; };
+		271B6C5713F048AA854DA7D5 /* NotoSansJP-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5B35EAF30D8A4B50803EF3CE /* NotoSansJP-Bold.otf */; };
+		1C1F34A12B964D888270682E /* NotoSansJP-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4F0609446C2A4E86A744269E /* NotoSansJP-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +62,6 @@
 		224ACC66A50511509841C3E5 /* Pods-TranslationAggregator-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TranslationAggregator-tvOS.release.xcconfig"; path = "Target Support Files/Pods-TranslationAggregator-tvOS/Pods-TranslationAggregator-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* TranslationAggregator-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TranslationAggregator-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* TranslationAggregator-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TranslationAggregator-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		334673424ABE4B488A4CF01A /* Noto Sans JP Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Noto Sans JP Regular.otf"; path = "../assets/fonts/Noto Sans JP Regular.otf"; sourceTree = "<group>"; };
 		3CC51B61D5AF326F7D5E92E5 /* libPods-TranslationAggregator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TranslationAggregator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB6871DBE5A97C15216DB29 /* Pods-TranslationAggregator-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TranslationAggregator-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-TranslationAggregator-tvOSTests/Pods-TranslationAggregator-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7CBFAB5F42E24185A001FBDF /* Pods-TranslationAggregator-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TranslationAggregator-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-TranslationAggregator-tvOSTests/Pods-TranslationAggregator-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,8 +72,9 @@
 		95A27F7CAB7174E2AFC82CD4 /* Pods-TranslationAggregator-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TranslationAggregator-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-TranslationAggregator-tvOS/Pods-TranslationAggregator-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		EE7820F6C243429CAF0C18BE /* Noto Sans JP Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Noto Sans JP Bold.otf"; path = "../assets/fonts/Noto Sans JP Bold.otf"; sourceTree = "<group>"; };
 		F7A061E24E214503B6F500DB /* Pods-TranslationAggregator-TranslationAggregatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TranslationAggregator-TranslationAggregatorTests.debug.xcconfig"; path = "Target Support Files/Pods-TranslationAggregator-TranslationAggregatorTests/Pods-TranslationAggregator-TranslationAggregatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B35EAF30D8A4B50803EF3CE /* NotoSansJP-Bold.otf */ = {isa = PBXFileReference; name = "NotoSansJP-Bold.otf"; path = "../assets/fonts/NotoSansJP-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4F0609446C2A4E86A744269E /* NotoSansJP-Regular.otf */ = {isa = PBXFileReference; name = "NotoSansJP-Regular.otf"; path = "../assets/fonts/NotoSansJP-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,8 @@
 			children = (
 				EE7820F6C243429CAF0C18BE /* Noto Sans JP Bold.otf */,
 				334673424ABE4B488A4CF01A /* Noto Sans JP Regular.otf */,
+				5B35EAF30D8A4B50803EF3CE /* NotoSansJP-Bold.otf */,
+				4F0609446C2A4E86A744269E /* NotoSansJP-Regular.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -359,6 +363,8 @@
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				B9B4DAD1B10C49F1964A7D45 /* Noto Sans JP Bold.otf in Resources */,
 				E200BF3CC8124BE7878D2298 /* Noto Sans JP Regular.otf in Resources */,
+				271B6C5713F048AA854DA7D5 /* NotoSansJP-Bold.otf in Resources */,
+				1C1F34A12B964D888270682E /* NotoSansJP-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
