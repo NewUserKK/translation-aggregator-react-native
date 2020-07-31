@@ -33,8 +33,12 @@ export async function translateUrban(query: string): Promise<Either<object, [Urb
   try {
     const response = await fetch(url);
     const json = await response.json(); 
+    const list = json.list
+    if (list === undefined) {
+      throw new Error("Json parsing error: " + json);
+    }
     return rightOf(
-      json.list.map((item: object) => UrbanTranslationModel.fromJson(item))
+      list.map((item: object) => UrbanTranslationModel.fromJson(item))
     );
 
   } catch (error) {
