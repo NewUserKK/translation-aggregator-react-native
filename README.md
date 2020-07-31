@@ -19,4 +19,4 @@
 </details>
 
 # APK
-TODO
+[Download here](https://github.com/NewUserKK/translation-aggregator-react-native/tree/master/android/app/out/app-debug.apk)
